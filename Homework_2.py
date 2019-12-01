@@ -11,18 +11,18 @@ for i in range(1, 6):
 Задача 2
 Пользователь в цикле вводит 10 цифр. Найти количество введеных пользователем цифр 5.
 '''
-# print("Задача 2")
-# count = 0
-# for i in range(1, 11):
-#     print('Введите цифру номер ', i, ': ', end='')
-#     num = input()
-#     while  len(num) != 1 or not num.isdigit():
-#         print(num, ' - не цифра')
-#         print('Введите цифру номер ', i, ': ', end = '')
-#         num = input()
-#     dig = int(num)
-#     if dig == 5: count += 1
-# print('Количество введеных пользователем цифр 5:', count)
+print("Задача 2")
+count = 0
+for i in range(1, 11):
+    print('Введите цифру номер ', i, ': ', end='')
+    num = input()
+    while  len(num) != 1 or not num.isdigit():
+        print(num, ' - не цифра')
+        print('Введите цифру номер ', i, ': ', end = '')
+        num = input()
+    dig = int(num)
+    if dig == 5: count += 1
+print('Количество введеных пользователем цифр 5:', count)
 '''
 Задача 3
 Найти сумму ряда чисел от 1 до 100. Полученный результат вывести на экран.
