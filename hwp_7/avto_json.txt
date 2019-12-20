@@ -1,0 +1,1 @@
+{"brand": "KIA", "model_a": "RIO", "volume": 1396, "price_a": 734.9}{"Report generation time (microseconds): ": 0}
